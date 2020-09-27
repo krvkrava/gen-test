@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "name": "UnityNetworkClientManifest"
+  },
+  "data": {
+    "middlewares": {
+      "requestComposition": {
+        "timeout": 10,
+        "contentType": "application/json"
+      },
+      "backgroundRetry": {
+        "retriesCount": 3
+      },
+      "requestProcessor": {
+        "hostName": "grayby.com",
+        "protocol": "http"
+      }
+    }
+  }
+}
