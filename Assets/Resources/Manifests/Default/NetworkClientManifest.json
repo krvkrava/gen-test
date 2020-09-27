@@ -12,8 +12,8 @@
         "retriesCount": 3
       },
       "requestProcessor": {
-        "hostName": "grayby.com",
-        "protocol": "http"
+        "hostName": "score-test-app-1.azurewebsites.net",
+        "protocol": "https"
       }
     }
   }
